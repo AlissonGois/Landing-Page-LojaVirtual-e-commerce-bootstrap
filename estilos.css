@@ -6,6 +6,10 @@
     width: 325px;
 }
 
+.div-novidades {
+    width: 325px;
+}
+
 .cor-font-icon {
     color: #DAFF01;
 }
@@ -21,5 +25,13 @@
 @media(max-width: 767px){
     .posicao{
         top:60%;
+    }
+}
+
+
+@media(min-width: 768px) {
+
+    .div-novidades {
+        width: 696px;
     }
 }
